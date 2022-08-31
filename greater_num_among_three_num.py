@@ -19,5 +19,5 @@ else:
         print(number_3)
 """
 
-#METHOD:2(Testing)
-print(number_1 if number_1>number_3 else number_3 if (number_1>number_2) else number_2 if number_2>number_3 else number_3)
+#METHOD:2
+print((number_1 if number_1>number_3 else number_3) if number_1>number_2 else (number_2 if number_2>number_3 else number_3))
